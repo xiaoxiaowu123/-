@@ -64,7 +64,7 @@ public int measureWidth(Column column, TableConfig config) {
 @Override
 public int measureHeight(TableConfig config) {
     int imgHeight = super.measureHeight(config);
-    **int textHeight = textDrawFormat.measureHeight(config) * 4;**
+    int textHeight = textDrawFormat.measureHeight(config) * 4;
     verticalPadding = config.getColumnTitleVerticalPadding();
 
     if (direction == TOP || direction == BOTTOM) {
